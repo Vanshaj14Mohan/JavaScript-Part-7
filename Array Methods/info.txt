@@ -1,0 +1,9 @@
+Topics included in this methods part
+:forEach
+:map
+:filter
+:some
+:every
+:reduce
+
+1: arr.forEach(some fucntion definition or name);
