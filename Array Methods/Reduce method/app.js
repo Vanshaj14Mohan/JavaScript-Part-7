@@ -14,3 +14,7 @@ result = num.reduce((res,el) =>{
 });
 
 //result = num.reduce((res,el) => res + el);
+//How the code works
+// (0,1) = 1
+// (1,2) = 3
+// (3,3) = 6
