@@ -29,3 +29,13 @@ for(i = 0; i<arr.length; i++){
 }
 
 console.log("Max number in array is:", max);
+
+//now using reduce method and writing this code again
+let ans = arr.reduce((max,el)=>{
+    if(max < el){
+        return el;
+    }
+    else{
+        return max;
+    }
+});
