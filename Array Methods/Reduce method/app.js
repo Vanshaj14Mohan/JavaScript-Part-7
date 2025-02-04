@@ -39,3 +39,5 @@ let ans = arr.reduce((max,el)=>{
         return max;
     }
 });
+
+console.log(max);
