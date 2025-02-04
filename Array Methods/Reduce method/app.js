@@ -18,3 +18,14 @@ result = num.reduce((res,el) =>{
 // (0,1) = 1
 // (1,2) = 3
 // (3,3) = 6
+
+//Q -> Using reduce method find and print the maximum number in an array.
+let arr =[1,2,3,4,5,6,7,8,9,10]
+let max = -1;
+for(i = 0; i<arr.length; i++){
+    if(max <arr[i]){
+        max = arr[i];
+    }
+}
+
+console.log("Max number in array is:", max);
