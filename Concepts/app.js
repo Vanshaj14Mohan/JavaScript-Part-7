@@ -31,3 +31,10 @@ const dataStudent = {
 
 dataCopy = {...dataStudent, id:123};
 console.log(dataCopy);
+//Now we can even spread arrays or strings in objects
+let dataArr = [1,2,3,4] //but array only has values
+let obj1 = {...dataArr}; //obje -> key:val pair to execute 
+console.log(obj1); //now it will display the value with the indexes 
+
+let obj2 = {..."HelloGuys"}
+console.log(obj2); //It will print too with the indexed values
