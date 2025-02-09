@@ -1,4 +1,4 @@
-// Map Function is a lot similar to forEach nut it creates a newArr that has the same size as original array.
+// Map Function is a lot similar to forEach and it creates a newArr that has the same size as original array.
 // arr.map(some function definition or name);
 let num = [1,2,3,4,5]
 //we will double the values in this
