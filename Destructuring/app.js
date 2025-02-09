@@ -19,4 +19,4 @@ const student = {
 // let username = student.username;
 // let password = student.password; //2nd way using destructuring here
 let {username, password} = student; //1st way using destructuring here
-// let {username: user, password} = student;
+// let {username: user, password: secret, city = "Pune"} = student; //putting values into another variable and creating new variable here
